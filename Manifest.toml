@@ -20,9 +20,9 @@ version = "1.5.0"
 
 [[deps.Adapt]]
 deps = ["LinearAlgebra", "Requires"]
-git-tree-sha1 = "cea4ac3f5b4bc4b3000aa55afb6e5626518948fa"
+git-tree-sha1 = "6a55b747d1812e699320963ffde36f1ebdda4099"
 uuid = "79e6a3ab-5dfb-504d-930d-738a2a938a0e"
-version = "4.0.3"
+version = "4.0.4"
 weakdeps = ["StaticArrays"]
 
     [deps.Adapt.extensions]
@@ -309,19 +309,25 @@ version = "0.6.8"
 
 [[deps.Echelle]]
 deps = ["AstroLib", "DataInterpolations", "FITSIO", "ImageFiltering", "NaNStatistics", "Polynomials", "PyCall", "SkyCoords", "Statistics", "StatsBase"]
-path = "/Users/cale/Codes/JuliaProjects/Echelle/"
+git-tree-sha1 = "55358d2430c32dfb4985bd38f030db0ac31cd2de"
+repo-rev = "master"
+repo-url = "https://github.com/astrobc1/Echelle.jl"
 uuid = "0452828c-43f4-4a88-ad3b-1639e58135de"
 version = "0.1.0"
 
 [[deps.EchelleCalibration]]
 deps = ["DataInterpolations", "Echelle", "FindPeaks1D", "ImageFiltering", "Infiltrator", "LsqFit", "NaNStatistics", "Pkg", "Polynomials", "PyCall", "StatsBase"]
-path = "/Users/cale/Codes/JuliaProjects/EchelleCalibration/"
+git-tree-sha1 = "73e2192ec94204926d3a33e03755b5f9ccdf5995"
+repo-rev = "master"
+repo-url = "https://github.com/astrobc1/EchelleCalibration.jl"
 uuid = "e1e08aa5-c21b-4617-bd78-8823b5cb44ca"
 version = "0.1.0"
 
 [[deps.EchelleReduce]]
 deps = ["Dierckx", "Echelle", "Infiltrator", "JLD2", "LsqFit", "NaNStatistics", "OrderedCollections", "Pkg", "Polynomials", "PyCall", "PyPlot", "SpecialFunctions"]
-path = "/Users/cale/Codes/JuliaProjects/EchelleReduce/"
+git-tree-sha1 = "e71130892571771624df1cfca7cc6a7a33f19a3e"
+repo-rev = "master"
+repo-url = "https://github.com/astrobc1/EchelleReduce.jl"
 uuid = "579f7780-8ee9-4b14-aabb-d9ce68a4959f"
 version = "0.1.0"
 

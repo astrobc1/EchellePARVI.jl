@@ -1,12 +1,5 @@
 module EchellePARVI
 
-
-#### TEMP
-using Pkg
-Pkg.develop(path="/Users/cale/Codes/JuliaProjects/Echelle/")
-Pkg.develop(path="/Users/cale/Codes/JuliaProjects/EchelleReduce/")
-Pkg.develop(path="/Users/cale/Codes/JuliaProjects/EchelleCalibration/")
-
 using FITSIO, JLD2, Glob
 using Infiltrator
 using Polynomials
@@ -14,6 +7,7 @@ using AstroAngles, SkyCoords
 using Distributed
 using OrderedCollections
 using Reexport
+
 @reexport using Echelle
 using EchelleReduce, EchelleCalibration
 
